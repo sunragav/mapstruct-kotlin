@@ -65,8 +65,8 @@ publishing {
         maven {
             url "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
             credentials {
-                username "admin"
-                password "admin123"
+                username = rootProject.properties["nexusUsername"].toString()
+                password = rootProject.properties["nexusPassword"].toString()
             }
         }
     }

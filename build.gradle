@@ -11,8 +11,6 @@ buildscript {
         autoServiceVersion = '1.0-rc7'
         mapstructVersion = '1.4.0.Beta3'
         javaPoetVersion = '1.11.1'
-        nexusUsername= "admin"
-        nexusPassword= "admin123"
     }
 
     repositories {
